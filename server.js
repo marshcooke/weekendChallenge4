@@ -1,7 +1,8 @@
-var express = requre('express');
+var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 var port = 4291
+var index = require('./routes/index');
 
 app.use(express.static('public'));
 app.use(bodyParser.json());

@@ -17,16 +17,16 @@
     </header>
     <main ng-app="myApp">
         <div ng-controller="PhotoController as PC">
-            <section ng-repeat="image in PC.images">
-                <div id="images" ng-click="PC.toggle(image)">
+            <section ng-repeat="image in PC.image">
+                <div id="image" ng-click="PC.toggle(image.image)">
                     <img ng-show="image.visible" ng-src-"{{image.image}}">
                 </div>
-                <div id="descriptions" ng-show="!image.visible" ng-click="PC.toggle(image)">
-                    <h2>{{image.description}}</h2>
+                <div id="descriptions" ng-show="!image.visible" ng-click="PC.toggle(image.descVisible)">
+                    <h2>{{image.descVisible}}</h2>
                 </div>
                 <div id="counts">
                     <button id="loveButton" ng-click="count = count + 1">❤️</button>
-                    <h3>{{count}}</h3>
+                    <h4>{{count}}</h4>
                 </div>
             </section>
         </div>

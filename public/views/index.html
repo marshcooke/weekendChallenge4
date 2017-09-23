@@ -15,20 +15,21 @@
     <header>
         <h1>My Gallery</h1>
     </header>
-    <main>
-        <div>
-            <section>
-                <img src="/images/kayak.JPG" alt="kayaking the channel">
-                <img src="/images/roommates.JPG" alt="roommates">
-                <img src="/images/loch_lomond.JPG" alt="Loch Lomond">
-                <img src="/images/london.JPG" alt="London">
-                <img src="/images/madeline_june.JPG" alt="Madeline">
-                <img src="/images/madeline_september.JPG" alt="Madeline">
-                <img src="/images/public_art.JPG" alt="Public art in Minneapolis">
-                <img src="/images/siblings.JPG" alt="siblings">
+    <main ng-app="myApp">
+        <div ng-controller="PhotoController as PC">
+            <section ng-repeat="image in PC.images">
+                <div id="images" ng-click="PC.toggle(image)">
+                    <img ng-show="image.visible" ng-src-"{{image.image}}">
+                </div>
+                <div id="descriptions" ng-show="!image.visible" ng-click="PC.toggle(image)">
+                    <h2>{{image.description}}</h2>
+                </div>
+                <div id="counts">
+                    <button id="loveButton" ng-click="count = count + 1">❤️</button>
+                    <h3>{{count}}</h3>
+                </div>
             </section>
         </div>
-
     </main>
     <footer>
     </footer>

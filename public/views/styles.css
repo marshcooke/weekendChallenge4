@@ -1,19 +1,57 @@
 body {
-    background-color: #9C9CE0;
+    background-color: #D1D1F6;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
 h1 {
-    color: white;
+    color: #F37E3B;
 }
 
-img {
+h2 {
+    color: #DD5D05;
+}
+
+h3 {
+    color: #202076;
+}
+
+#images {
     position: relative;
     float: left;
     width:  100px;
     height: 100px;
     border: 1px;
-    border-radius: 4px;
+    border-radius: 6px;
     padding: 5px;
-    width: 100px;
+}
+
+#img-responsive {
+    width: 100%;
+    height: auto
+}
+
+#descriptions {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    border: 1px;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+#loveButton {
+    background-color: #6060B0;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#loveButton:hover {
+    background-color: #FDF49D;
 }

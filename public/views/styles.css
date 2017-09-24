@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    color: #F37E3B;
+    color: #0F3097;
 }
 
 h4 {
@@ -29,13 +29,14 @@ h4 {
 #descriptions {
     position: relative;
     float: left;
-    width:  100px;
-    height: 100px;
-    border: 1px;
+    width:  125px;
+    height: 125px;
+    border: 2px;
     border-radius: 6px;
     padding: 5px;
-    color: #DD5D05;
-    font-size: 
+    color: #FFFFFF;
+    font-size: small;
+    background-color: #689FED;
 }
 
 #loveButton {

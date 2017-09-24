@@ -12,14 +12,14 @@ var photosArray = [
     },
     {
         image: '../images/roommates.JPG',
-        description: 'My best friend, sister, mother, child, and roommate.',
+        description: 'My best friend, sister, & roommate: Elizabeth Emery.',
         likes: 0,
         visible: true,
         descVisible: false
     },
     {
         image: '../images/london.JPG',
-        description: 'On the London Bridge after Borough Market, before a night full of fun with Love Actually and Aussies (and Katie Campbell).',
+        description: 'On the London Bridge after Borough Market, before a night full of fun with Love Actually & Aussies (& Katie Campbell).',
         likes: 0,
         visible: true,
         descVisible: false
@@ -47,21 +47,21 @@ var photosArray = [
     },
     {
         image: '../images/madeline_september.JPG',
-        description: 'My favorite tiny person, Madeline, in September.',
+        description: 'My favorite tiny person, Madeline, more recently in September.',
         likes: 0,
         visible: true,
         descVisible: false
     },
     {
         image: '../images/siblings.JPG',
-        description: 'Never make a companion equal to a brother; myself with my brothers, Morgan and Andrew.',
+        description: 'Never make a companion equal to a brother; myself with my brothers, Morgan & Andrew.',
         likes: 0,
         visible: true,
         descVisible: false
     },
     {
         image: '../images/family.JPG',
-        description: 'Andrew, Mary, Sarah, Frances, Morgan, Mom, Dad, and Grandma; only missing the tiny person.',
+        description: 'Andrew, Mary, Sarah, Frances, Morgan, Mom, Dad, & Grandma; only missing the tiny person.',
         likes: 0,
         visible: true,
         descVisible: false

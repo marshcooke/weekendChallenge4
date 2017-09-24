@@ -83,11 +83,8 @@ myApp.controller('PhotoController', function () {
     };
 
     vm.toggle = function (image) {
-        console.log('vm toggle function');
-        // if (photosArray.visible === true) {
-        //     photosArray.count = photosArray.count += 1;
-            // console.log('image count: ', photosArray.count);
-            console.log('photsarray.description: ', photosArray.description);
-        // };
+        console.log(image);
+        image.visible = !image.visible;
+        console.log(image.visible);
     };
 });

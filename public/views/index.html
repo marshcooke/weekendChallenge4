@@ -19,7 +19,7 @@
         <div ng-controller="PhotoController as PC">
             <section ng-repeat="image in PC.image">
                 <div id="image" ng-click="PC.toggle(image.image)">
-                    <img ng-show="image.visible" ng-src-"{{image.image}}">
+                    <img ng-show="image.visible" ng-src="{{image.image}}">
                 </div>
                 <div id="descriptions" ng-show="!image.visible" ng-click="PC.toggle(image.descVisible)">
                     <h2>{{image.descVisible}}</h2>

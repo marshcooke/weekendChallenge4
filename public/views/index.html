@@ -17,7 +17,7 @@
     </header>
     <main ng-app="myApp">
         <div ng-controller="PhotoController as PC">
-            <section ng-repeat="image in PC.image">
+            <section id="gallery" ng-repeat="image in PC.image">
                 <div id="image" ng-click="PC.toggle(image)">
                     <img ng-show="image.visible" ng-src="{{image.image}}">
                 </div>

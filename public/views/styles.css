@@ -11,24 +11,42 @@ h4 {
     color: #202076;
 }
 
-#images {
+#gallery {
     position: relative;
-    float: left;
-    width:  340px;
-    height: 340px;
+    width:  33%;
+    border: 2px;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 4px;
+    color: #FFFFFF;
+    font-size: small;
+}
+#image {
+    width: 85%;
+    border: 6px;
+}
+#descriptions {
+    background-color: #689FED; 
+    border-radius: 6px;
+    padding: 5px;
+    margin: 4px;
+    color: #FFFFFF;
+    font-size: small;
+}
+
+/* #image {
+    position: relative;
+    width:  150px;
+    height: auto;
+    float: center;
     border: 1px;
     border-radius: 6px;
     padding: 5px;
 }
 
-#img-responsive {
-    width: 100%;
-    height: auto
-}
-
 #descriptions {
     position: relative;
-    float: left;
+    float: center;
     width:  180px;
     height: 180px;
     border: 2px;
@@ -37,7 +55,7 @@ h4 {
     color: #FFFFFF;
     font-size: small;
     background-color: #689FED;
-}
+} */
 
 #loveButton {
     background-color: #6060B0;

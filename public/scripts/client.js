@@ -78,7 +78,7 @@ myApp.controller('PhotoController', function () {
     vm.show = function (image) {
         console.log('vm show photo function');
         if (photosArray.visible === true) {
-            photosArray.descVisible
+            photosArray.descVisibles
         }
     };
 

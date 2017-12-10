@@ -1,14 +1,14 @@
 body {
-    background-color: #D1D1F6;
+    background-color: #58B49B;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
 h1 {
-    color: #0F3097;
+    color: #FFFFFF;
 }
 
 h4 {
-    color: #202076;
+    color: #FFFFFF;
 }
 
 #gallery {
@@ -27,7 +27,7 @@ h4 {
     border: 6px;
 }
 #descriptions {
-    background-color: #689FED; 
+    background-color: #85B3F4; 
     border-radius: 6px;
     padding: 5px;
     margin: 4px;
@@ -59,9 +59,9 @@ h4 {
 } */
 
 #loveButton {
-    background-color: #6060B0;
+    background-color: white;
     border: none;
-    color: white;
+    /* color: white; */
     padding: 8px 16px;
     text-decoration: none;
     margin: 4px 2px;

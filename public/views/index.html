@@ -18,10 +18,10 @@
         <h1>Sarah's Gallery</h1>
     </header>
     <main ng-controller="PhotoController as PC">
+        <!-- image, description, and count need to be in the same container / row.  -->
         <div id="gallery" ng-repeat="image in PC.image">
-            <div id="image" ng-click="PC.toggle(image)">
-                <img ng-show="image.visible" ng-src="{{image.image}}">
-            </div>
+                <img id="image" ng-click="PC.toggle(image)" ng-show="image.visible" ng-src="{{image.image}}">
+            
             <div id="descriptions" ng-show="!image.visible" ng-click="PC.toggle(image)">
                 <p>{{image.description}}</p>
             </div>

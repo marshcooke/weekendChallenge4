@@ -37,29 +37,6 @@ h4 {
     font-size: small;
 }
 
-/* #image {
-    position: relative;
-    width:  150px;
-    height: auto;
-    float: center;
-    border: 1px;
-    border-radius: 6px;
-    padding: 5px;
-}
-
-#descriptions {
-    position: relative;
-    float: center;
-    width:  180px;
-    height: 180px;
-    border: 2px;
-    border-radius: 6px;
-    padding: 5px;
-    color: #FFFFFF;
-    font-size: small;
-    background-color: #689FED;
-} */
-
 #loveButton {
     background-color: white;
     border: none;

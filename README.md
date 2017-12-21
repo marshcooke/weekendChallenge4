@@ -1,4 +1,7 @@
-#Weekend Challenge 4: The Gallery of My Life
+# Project completed during weekend 4 at Prime
+While enrolled at Prime Digital Academy, we took on weekend code challenges. Week 4 is outlined below:
+
+# Weekend Challenge 4: The Gallery of My Life
 
 We're switching up our client-side this weekend with Angular! Our focus will be on getting comfortable with what Angular can do for us, so most of our effort will be on client-side JavaScript and, hopefully, experimenting with CSS.
 
@@ -7,14 +10,14 @@ We're switching up our client-side this weekend with Angular! Our focus will be 
 [X] Users can also heart/thumbs up/favorite your photo as many times as they want; 
 [X] you'll need to keep track of how many times it was clicked.
 
-#Technologies
+# Technologies
 
 [X] Node/Express - to serve your files
 [X] Angular - client-side logic
 [X] CSS - flex your style muscles
-[ ] Heroku - to make your site available to the world (Pro Mode)
+[X] Heroku - to make your site available to the world (Pro Mode)
 
-#Hints
+# Hints
 
 [X] Explore built-in Angular functionality like ng-click, ng-src, ng-show, ng-hide, ng-if.
 [X] Use arrays and objects to store your data on the server.
@@ -27,5 +30,6 @@ We're switching up our client-side this weekend with Angular! Our focus will be 
 #Pro Mode
 
 [ ] Use Angular's $http service to store your data on the server instead of the client. 
-[ ] Try and deploy your site to Heroku. This is new, follow the guide in the originial readme for tips.
+[X] Try and deploy your site to Heroku. This is new, follow the guide in the originial readme for tips.
 
+- See this project deployed on [heroku here](https://rocky-ridge-96250.herokuapp.com/). 

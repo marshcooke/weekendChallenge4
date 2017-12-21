@@ -2,8 +2,7 @@ console.log('step 1');
 
 var myApp = angular.module('myApp', []);
 
-var photosArray = [
-    {
+var photosArray = [{
         image: '../images/kayak.JPG',
         description: 'Kayaking in the channel between Cedar Lake & Lake of the Isles!',
         likes: 0,

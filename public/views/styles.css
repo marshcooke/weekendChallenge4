@@ -1,6 +1,6 @@
 body {
     background-color: #58B49B;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1 {
@@ -14,7 +14,7 @@ h4 {
 
 #gallery {
     position: relative;
-    width:  33%;
+    width: 33%;
     border: 2px;
     border-radius: 6px;
     padding: 5px;
@@ -29,7 +29,7 @@ h4 {
 }
 
 #descriptions {
-    background-color: #85B3F4; 
+    background-color: #85B3F4;
     border-radius: 6px;
     padding: 5px;
     margin: 4px;
@@ -50,5 +50,5 @@ h4 {
 }
 
 #loveButton:hover {
-    background-color: #FDF49D; 
+    background-color: #FDF49D;
 }

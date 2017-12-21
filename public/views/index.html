@@ -20,16 +20,17 @@
     <main ng-controller="PhotoController as PC">
         <!-- image, description, and count need to be in the same container / row.  -->
         <div id="gallery" ng-repeat="image in PC.image">
-                <img id="image" ng-click="PC.toggle(image)" ng-show="image.visible" ng-src="{{image.image}}">
-            
+            <img id="image" ng-click="PC.toggle(image)" ng-show="image.visible" ng-src="{{image.image}}">
+
             <div id="descriptions" ng-show="!image.visible" ng-click="PC.toggle(image)">
                 <p>{{image.description}}</p>
             </div>
             <div id="counts">
-                <button id="loveButton" ng-click="count = count + 1">❤️</button>
+                <button id="loveButton" ng-click="count = count + 1" class="btn btn-default">❤️</button>
                 <h4>{{count}}</h4>
             </div>
             </br>
     </main>
 </body>
+
 </html>
